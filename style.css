@@ -1,0 +1,63 @@
+
+* {
+  text-decoration: none;
+}
+
+ .sign-in-header {
+   list-style-type: none;
+   padding: 15px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: flex-end;
+ }
+
+ .sign-in-header li {
+   padding-left: 50px;
+ }
+
+ .sign-in-header li a {
+   color: #686868;
+   font-size: 14px;
+   font-family: arial;
+ }
+
+ .sign-in-header a:hover {
+   text-decoration: underline;
+ }
+
+ .google-logo {
+   margin: auto;
+   padding-top: 112px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 15px;
+ }
+
+
+input[type="text"] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[placeholder="search"] {
+    font-family: arial;
+}
+
+
+ h1 {
+   font-family: raider crusader;
+   margin: auto;
+   box-sizing: border-box;
+   display: flex;
+   flex-flow: column;
+   justify-content: center;
+   align-items: center;
+   color: #0090ff;  
+ }
