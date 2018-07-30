@@ -3,6 +3,54 @@
   text-decoration: none;
 }
 
+.sign-in-header {
+  position: relative;
+  top: -8px;
+}
+
+.bell {
+  display: block;
+}
+
+.bell:hover {
+  background-color: #fffcfc;
+}
+
+ .profile-pic {
+   position: relative;
+   top: -8px;
+}
+
+.left-header {
+  position: absolute;
+  left: 15px;
+  bottom: 17px;
+  right: auto;
+  list-style-type: none;
+  padding: 15px;
+  display: flex;
+  order: 0;
+}
+
+.left-header li {
+  padding-left: 50px;
+}
+
+.left-header li a {
+  color: black;
+  font-size: 13px;
+  font-family: arial;
+}
+
+.left-header a:hover {
+  text-decoration: underline;
+  color: #686868;
+}
+
+ body {
+   position: relative;
+ }
+
  .sign-in-header {
    list-style-type: none;
    padding: 15px;
@@ -16,13 +64,14 @@
  }
 
  .sign-in-header li a {
-   color: #686868;
-   font-size: 14px;
+   color: black;
+   font-size: 13px;
    font-family: arial;
  }
 
  .sign-in-header a:hover {
    text-decoration: underline;
+   color: #686868;
  }
 
  .google-logo {
@@ -59,5 +108,58 @@ input[placeholder="search"] {
    flex-flow: column;
    justify-content: center;
    align-items: center;
-   color: #0090ff;  
+   color: #0090ff;
  }
+
+ footer {
+   background-color: #e2e2e2;
+   list-style-type: none;
+   display: flex;
+   order: 0;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   display: flex;
+   align-items: flex-end;
+ }
+
+ footer li {
+   list-style-type: none;
+   padding-right: 50px;
+ }
+
+ footer li a {
+   list-style-type: none;
+   color: black;
+   font-size: 13px;
+   font-family: arial;
+ }
+
+ footer a:hover {
+   list-style-type: none;
+   text-decoration: underline;
+   color: #686868;
+ }
+
+
+.b-footer {
+  padding-left: 85px;
+  position: fixed;
+  bottom: 15px;
+}
+
+.b-footer a:hover{
+  list-style-type: none;
+  text-decoration: underline;
+  color: #686868;
+}
+
+.a-footer {
+  display: block;
+}
+
+.a-footer a:hover{
+  list-style-type: none;
+  text-decoration: underline;
+  color: #686868;
+}
